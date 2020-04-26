@@ -7,23 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01182BA51C63E58C0FDD0368 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E64DB8EAD438657CEF26A08 /* MapViewController.swift */; };
+		087BEEE0119DE8E3B3819A9F /* ICongratsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB9A5E29EF298818ADC765 /* ICongratsPresenter.swift */; };
+		0D8C365E62A63EBCC8EFCBA4 /* AwaitAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF60F4C79D3EE968362026 /* AwaitAssembly.swift */; };
+		157E80DB29A24CA7F6F6F072 /* IAwaitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD409286A9C093E7A2E333D /* IAwaitRouter.swift */; };
+		1C4A3D8517A2F620414D19FD /* AwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AE0CC00643841A38111EE /* AwaitViewController.swift */; };
+		1E0F78FF7B72DB6A9286731A /* SetupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967851B98CE190F06EC9CE2 /* SetupInteractor.swift */; };
+		241B487EEF1795454227079E /* CongratsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78371D354DF47D10630EB887 /* CongratsAssembly.swift */; };
+		31681D6453BC11B2417786BF /* IMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D311BEAA667F3D3CF37B125 /* IMapPresenter.swift */; };
+		3359F4138478AEB0C2ED86FC /* ImageDetectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D9F445BF61F37471A1C3FB /* ImageDetectionRouter.swift */; };
+		37A9D6D8F9E6487DF854B277 /* IImageDetectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3056A6851DD21EE6704294 /* IImageDetectionPresenter.swift */; };
+		3C3ED27916E59A5926E51491 /* GiftScannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D695FDB05B35B74B1641E3D /* GiftScannerRouter.swift */; };
+		4A262188E6BF2693FBF87AAB /* GiftScannerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4598F4E7C2057CB59EFCABEF /* GiftScannerAssembly.swift */; };
+		4B040C544A7D69EC81A116B1 /* ICongratsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84693796BF6C07D5FF7622B7 /* ICongratsRouter.swift */; };
+		4E1C8494BFBF3234BFC6F407 /* ISetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB93BCB26A5EAADB5F24F75 /* ISetupView.swift */; };
+		5119CFADDC581372203D354B /* ImageDetectionAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277CE8AE2BACB274647ED0C /* ImageDetectionAssembly.swift */; };
+		519C5E00A38FFF447311FD4C /* IAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBC8C91E5217CA23DE8975 /* IAwaitView.swift */; };
+		5549CDF7F4F57099CD28B086 /* ISetupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8650AECDE146A62606298 /* ISetupInteractor.swift */; };
+		559A28192455FC2B001C6501 /* MapItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A28182455FC2B001C6501 /* MapItemCell.swift */; };
 		55C03F08245090C2003131EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F07245090C2003131EB /* AppDelegate.swift */; };
-		55C03F0A245090C2003131EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F09245090C2003131EB /* ViewController.swift */; };
-		55C03F0C245090C2003131EB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F0B245090C2003131EB /* Experience.rcproject */; };
 		55C03F0F245090C2003131EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C03F0D245090C2003131EB /* Main.storyboard */; };
 		55C03F11245090C7003131EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C03F10245090C7003131EB /* Assets.xcassets */; };
 		55C03F14245090C7003131EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C03F12245090C7003131EB /* LaunchScreen.storyboard */; };
+		55C03F2724509D22003131EB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F1E24509D22003131EB /* BaseViewController.swift */; };
+		55C03F2924509D22003131EB /* ViperModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F2024509D22003131EB /* ViperModule.swift */; };
+		55C03F2A24509D22003131EB /* IBaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F2124509D22003131EB /* IBaseRouter.swift */; };
+		55C03F2B24509D22003131EB /* ILifeCycleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F2224509D22003131EB /* ILifeCycleOutput.swift */; };
+		55C03F2C24509D22003131EB /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F2324509D22003131EB /* BasePresenter.swift */; };
+		55C03F2D24509D22003131EB /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F2424509D22003131EB /* BaseRouter.swift */; };
+		55C03F3224509DE7003131EB /* ModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F3024509DE7003131EB /* ModulesFactory.swift */; };
+		55C03F3324509DE7003131EB /* IModulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F3124509DE7003131EB /* IModulesFactory.swift */; };
+		55C03F362450A254003131EB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C03F352450A254003131EB /* NotificationService.swift */; };
+		55F491F82455C51F0079B2C6 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F491F72455C51F0079B2C6 /* StatusViewController.swift */; };
+		55F491FB2455EB890079B2C6 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F491FA2455EB890079B2C6 /* MapModel.swift */; };
+		55F491FD2455EC100079B2C6 /* MapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F491FC2455EC100079B2C6 /* MapItem.swift */; };
+		55FAB958246318BE0013D970 /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55FAB957246318BE0013D970 /* alert.wav */; };
+		5762CB5CCE8380C6F3B681B7 /* IImageDetectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216364B00099B9A6C3E8ADC /* IImageDetectionRouter.swift */; };
+		6291336F106A2753D9CA1FB8 /* ImageDetectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6280B9047AA987890864CB8 /* ImageDetectionPresenter.swift */; };
+		6315015246445B0FFC44B536 /* AwaitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CDDDB0681B5692E93F759 /* AwaitInteractor.swift */; };
+		692B33CF4E60AA5800669526 /* IGiftScannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3378043574FAA38EED9E4B2C /* IGiftScannerPresenter.swift */; };
+		6DCA56195613FD53B72E4690 /* CongratsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A365206B937A22EB675C6B /* CongratsPresenter.swift */; };
+		71A1FC0DE347112865D9F086 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2B87FEA6C949FDC895E0D /* SetupViewController.swift */; };
+		7D1AB3A7DFC9782B8C1C8484 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8838E407739ECA2EE8F2DC /* CongratsViewController.swift */; };
+		8206131F21B48D904FA58076 /* AwaitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8DBCA9AF93330A350A35F /* AwaitRouter.swift */; };
+		831735F50DF87A51E92CC9D2 /* MapAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B64E4E2BC84B3507002A58 /* MapAssembly.swift */; };
+		8E18C5751447B097D8FEDADD /* IGiftScannerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413E878DB0B682DAD7103B9 /* IGiftScannerInteractor.swift */; };
+		8ED697A65995866B97F1BC99 /* IGiftScannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB054CB41318793D56B40B32 /* IGiftScannerRouter.swift */; };
+		9C3BB703D6FC340F5E13D3C2 /* SetupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D908D5FB2E99D7BA3AF9D /* SetupPresenter.swift */; };
+		9F3DCD94D339ECF13A46A954 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991F1A59902DAE1F7D712F9 /* MapRouter.swift */; };
+		A09A6DAF2B35CAF4CBA04DCC /* CongratsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABC193CFF78FD573E4E898 /* CongratsInteractor.swift */; };
+		A3FDC49976AF8F5BB881514C /* IImageDetectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF3AAD432A5BD8280336F89 /* IImageDetectionInteractor.swift */; };
+		A5D1A24B22FBF6B8E91B5417 /* ICongratsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5442132C836F5F4F69A17DEF /* ICongratsView.swift */; };
+		A5F3EF4DB1952B722713C6A7 /* SetupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCC0747AB25C9EAAD5CB28 /* SetupRouter.swift */; };
+		A6F69ED36A34C6E6E0D1C745 /* ISetupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4D7DD9A16809C539BB005 /* ISetupPresenter.swift */; };
+		A954382A362F337380C8A291 /* ImageDetectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D62A35C0F940B6E7DB8F0C /* ImageDetectionInteractor.swift */; };
+		A9EEA77A6CDC151690C28796 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95582DFE02897B9A1D67304 /* MapPresenter.swift */; };
+		AAC42C5DD1800963414A2B10 /* IAwaitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4045D51B52960DB071588 /* IAwaitPresenter.swift */; };
+		B441D3D8F658C8AB757F31B9 /* SetupAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5F66DB7D76AC13DABA556 /* SetupAssembly.swift */; };
+		B7F5929CBF3EDC866F5D7357 /* IAwaitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A69AED28ADCE6F03D3B1B2 /* IAwaitInteractor.swift */; };
+		B96BA35D99292E25396C2271 /* ISetupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37F5130E486F4E96ED8C92 /* ISetupRouter.swift */; };
+		C3A71465F80BFEB1C981803A /* IImageDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDFF263E22FF6A513C6251 /* IImageDetectionView.swift */; };
+		C85EB72BF957C0FC98AF6374 /* CongratsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CC855B5CF6D0423886D07 /* CongratsRouter.swift */; };
+		D56CB8768B200B98009D378F /* AwaitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AB664205AEE276332AF526 /* AwaitPresenter.swift */; };
+		DA3154DECA5B7090AB5932B5 /* IMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBECEE065707505FD96B48F3 /* IMapRouter.swift */; };
+		E2388BDEB7B00FEA30DB10A7 /* IMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EAB74A19B028CCB42505D /* IMapInteractor.swift */; };
+		E410F678E6E2BBB44951544C /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653E30F5452961400C1259D /* MapInteractor.swift */; };
+		E665E83C42AAD784AA74C05C /* GiftScannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD0C181267BAE3BD00E9B36 /* GiftScannerPresenter.swift */; };
+		E794872B92D608ECE9716A18 /* IMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428C85A7CC2ABDCAF5699437 /* IMapView.swift */; };
+		F37056B859C2B43688745A4B /* ImageDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084DEDD27F89384F97D23143 /* ImageDetectionViewController.swift */; };
+		F68FDA6C73B0432404FBD97B /* GiftScannerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D89E1389D98CE08B5D677B /* GiftScannerInteractor.swift */; };
+		FBB41AAE3E686A96CD7A12DD /* ICongratsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8900B5403BAA3D0D0C834C6A /* ICongratsInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55C03F04245090C2003131EB /* ARQuestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D62A35C0F940B6E7DB8F0C /* ImageDetectionInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDetectionInteractor.swift; sourceTree = "<group>"; };
+		084DEDD27F89384F97D23143 /* ImageDetectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDetectionViewController.swift; sourceTree = "<group>"; };
+		0967851B98CE190F06EC9CE2 /* SetupInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetupInteractor.swift; sourceTree = "<group>"; };
+		1277CE8AE2BACB274647ED0C /* ImageDetectionAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDetectionAssembly.swift; sourceTree = "<group>"; };
+		22A4045D51B52960DB071588 /* IAwaitPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAwaitPresenter.swift; sourceTree = "<group>"; };
+		27B64E4E2BC84B3507002A58 /* MapAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapAssembly.swift; sourceTree = "<group>"; };
+		27E4D7DD9A16809C539BB005 /* ISetupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISetupPresenter.swift; sourceTree = "<group>"; };
+		31ABC193CFF78FD573E4E898 /* CongratsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CongratsInteractor.swift; sourceTree = "<group>"; };
+		3378043574FAA38EED9E4B2C /* IGiftScannerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGiftScannerPresenter.swift; sourceTree = "<group>"; };
+		3D311BEAA667F3D3CF37B125 /* IMapPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMapPresenter.swift; sourceTree = "<group>"; };
+		3DC8DBCA9AF93330A350A35F /* AwaitRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwaitRouter.swift; sourceTree = "<group>"; };
+		428C85A7CC2ABDCAF5699437 /* IMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMapView.swift; sourceTree = "<group>"; };
+		4598F4E7C2057CB59EFCABEF /* GiftScannerAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GiftScannerAssembly.swift; sourceTree = "<group>"; };
+		49AB664205AEE276332AF526 /* AwaitPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwaitPresenter.swift; sourceTree = "<group>"; };
+		4D37F5130E486F4E96ED8C92 /* ISetupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISetupRouter.swift; sourceTree = "<group>"; };
+		4FCDFF263E22FF6A513C6251 /* IImageDetectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IImageDetectionView.swift; sourceTree = "<group>"; };
+		5216364B00099B9A6C3E8ADC /* IImageDetectionRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IImageDetectionRouter.swift; sourceTree = "<group>"; };
+		52B2B87FEA6C949FDC895E0D /* SetupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		5442132C836F5F4F69A17DEF /* ICongratsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICongratsView.swift; sourceTree = "<group>"; };
+		559A28182455FC2B001C6501 /* MapItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemCell.swift; sourceTree = "<group>"; };
+		55C03F04245090C2003131EB /* Найди подарок.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Найди подарок.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C03F07245090C2003131EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55C03F09245090C2003131EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55C03F0B245090C2003131EB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		55C03F0E245090C2003131EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55C03F10245090C7003131EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55C03F13245090C7003131EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55C03F15245090C7003131EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C03F1E24509D22003131EB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		55C03F2024509D22003131EB /* ViperModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViperModule.swift; sourceTree = "<group>"; };
+		55C03F2124509D22003131EB /* IBaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBaseRouter.swift; sourceTree = "<group>"; };
+		55C03F2224509D22003131EB /* ILifeCycleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILifeCycleOutput.swift; sourceTree = "<group>"; };
+		55C03F2324509D22003131EB /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		55C03F2424509D22003131EB /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		55C03F3024509DE7003131EB /* ModulesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesFactory.swift; sourceTree = "<group>"; };
+		55C03F3124509DE7003131EB /* IModulesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IModulesFactory.swift; sourceTree = "<group>"; };
+		55C03F352450A254003131EB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		55F491F72455C51F0079B2C6 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		55F491FA2455EB890079B2C6 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		55F491FC2455EC100079B2C6 /* MapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItem.swift; sourceTree = "<group>"; };
+		55FAB957246318BE0013D970 /* alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert.wav; sourceTree = "<group>"; };
+		62A69AED28ADCE6F03D3B1B2 /* IAwaitInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAwaitInteractor.swift; sourceTree = "<group>"; };
+		6C3056A6851DD21EE6704294 /* IImageDetectionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IImageDetectionPresenter.swift; sourceTree = "<group>"; };
+		6D695FDB05B35B74B1641E3D /* GiftScannerRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GiftScannerRouter.swift; sourceTree = "<group>"; };
+		78371D354DF47D10630EB887 /* CongratsAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CongratsAssembly.swift; sourceTree = "<group>"; };
+		7991F1A59902DAE1F7D712F9 /* MapRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		7A3AE0CC00643841A38111EE /* AwaitViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwaitViewController.swift; sourceTree = "<group>"; };
+		7E5EAB74A19B028CCB42505D /* IMapInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMapInteractor.swift; sourceTree = "<group>"; };
+		84693796BF6C07D5FF7622B7 /* ICongratsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICongratsRouter.swift; sourceTree = "<group>"; };
+		8900B5403BAA3D0D0C834C6A /* ICongratsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICongratsInteractor.swift; sourceTree = "<group>"; };
+		8A8838E407739ECA2EE8F2DC /* CongratsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		8CBB9A5E29EF298818ADC765 /* ICongratsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ICongratsPresenter.swift; sourceTree = "<group>"; };
+		94D89E1389D98CE08B5D677B /* GiftScannerInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GiftScannerInteractor.swift; sourceTree = "<group>"; };
+		994D908D5FB2E99D7BA3AF9D /* SetupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetupPresenter.swift; sourceTree = "<group>"; };
+		9AD409286A9C093E7A2E333D /* IAwaitRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAwaitRouter.swift; sourceTree = "<group>"; };
+		9E64DB8EAD438657CEF26A08 /* MapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A0DF60F4C79D3EE968362026 /* AwaitAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwaitAssembly.swift; sourceTree = "<group>"; };
+		A653E30F5452961400C1259D /* MapInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		A8A365206B937A22EB675C6B /* CongratsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CongratsPresenter.swift; sourceTree = "<group>"; };
+		AB054CB41318793D56B40B32 /* IGiftScannerRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGiftScannerRouter.swift; sourceTree = "<group>"; };
+		BBCCC0747AB25C9EAAD5CB28 /* SetupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetupRouter.swift; sourceTree = "<group>"; };
+		BBECEE065707505FD96B48F3 /* IMapRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IMapRouter.swift; sourceTree = "<group>"; };
+		BFD0C181267BAE3BD00E9B36 /* GiftScannerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GiftScannerPresenter.swift; sourceTree = "<group>"; };
+		C36CC855B5CF6D0423886D07 /* CongratsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CongratsRouter.swift; sourceTree = "<group>"; };
+		C6CBC8C91E5217CA23DE8975 /* IAwaitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IAwaitView.swift; sourceTree = "<group>"; };
+		C95582DFE02897B9A1D67304 /* MapPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		CB3CDDDB0681B5692E93F759 /* AwaitInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwaitInteractor.swift; sourceTree = "<group>"; };
+		D413E878DB0B682DAD7103B9 /* IGiftScannerInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IGiftScannerInteractor.swift; sourceTree = "<group>"; };
+		D6280B9047AA987890864CB8 /* ImageDetectionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDetectionPresenter.swift; sourceTree = "<group>"; };
+		D8C8650AECDE146A62606298 /* ISetupInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISetupInteractor.swift; sourceTree = "<group>"; };
+		DCF3AAD432A5BD8280336F89 /* IImageDetectionInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IImageDetectionInteractor.swift; sourceTree = "<group>"; };
+		E6D9F445BF61F37471A1C3FB /* ImageDetectionRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageDetectionRouter.swift; sourceTree = "<group>"; };
+		FDB93BCB26A5EAADB5F24F75 /* ISetupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISetupView.swift; sourceTree = "<group>"; };
+		FEF5F66DB7D76AC13DABA556 /* SetupAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SetupAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +165,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0737F683E71E4DD7BD1587A7 /* Await */ = {
+			isa = PBXGroup;
+			children = (
+				64D316D7F9B6C04F60F7FCB8 /* View */,
+				4443232E5B29BAC27AF52DE1 /* Presenter */,
+				D8FDC50E3975FA9BE7FECC5B /* Interactor */,
+				D43AC7D01F2658F7B6D45934 /* Router */,
+				27E11254906BFA2D0E21A14D /* Assembly */,
+			);
+			path = Await;
+			sourceTree = "<group>";
+		};
+		097894B1C488DE2CCBB49FE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				084DEDD27F89384F97D23143 /* ImageDetectionViewController.swift */,
+				55F491F72455C51F0079B2C6 /* StatusViewController.swift */,
+				4FCDFF263E22FF6A513C6251 /* IImageDetectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10F0F3919F1227A16A24C811 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				BBCCC0747AB25C9EAAD5CB28 /* SetupRouter.swift */,
+				4D37F5130E486F4E96ED8C92 /* ISetupRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		12DB5BC96970AA322364665A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				6D695FDB05B35B74B1641E3D /* GiftScannerRouter.swift */,
+				AB054CB41318793D56B40B32 /* IGiftScannerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		27C16645602AD3375E44A8E4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				94D89E1389D98CE08B5D677B /* GiftScannerInteractor.swift */,
+				D413E878DB0B682DAD7103B9 /* IGiftScannerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		27E11254906BFA2D0E21A14D /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				A0DF60F4C79D3EE968362026 /* AwaitAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		2BC4C7520E62BA2173247070 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				31ABC193CFF78FD573E4E898 /* CongratsInteractor.swift */,
+				8900B5403BAA3D0D0C834C6A /* ICongratsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2F23FA9173B0C36D98D046D9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				55C03F07245090C2003131EB /* AppDelegate.swift */,
+				BF5AFB9D9019389E3CC8927C /* Modules */,
+				55C03F342450A23A003131EB /* Services */,
+				55F491F92455EB780079B2C6 /* Models */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3C99CF68838E7DEB10E17E74 /* GiftScanner */ = {
+			isa = PBXGroup;
+			children = (
+				FAE664EC09D1D292F2C91594 /* Presenter */,
+				27C16645602AD3375E44A8E4 /* Interactor */,
+				12DB5BC96970AA322364665A /* Router */,
+				81DEFB0483ABD69DED95235F /* Assembly */,
+			);
+			path = GiftScanner;
+			sourceTree = "<group>";
+		};
+		42A5BB18DA0165C41F368B72 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C63D91E86F0266B956D586DC /* View */,
+				750F0821E9355F6E32448374 /* Presenter */,
+				71CAB7CD858FDF62E6099E53 /* Interactor */,
+				7D9AD000F79E8AFCE557C828 /* Router */,
+				B1D317CE14A7D49B784CD20E /* Assembly */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4443232E5B29BAC27AF52DE1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				49AB664205AEE276332AF526 /* AwaitPresenter.swift */,
+				22A4045D51B52960DB071588 /* IAwaitPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		44F7E9E0ECEBCE67258774CF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0967851B98CE190F06EC9CE2 /* SetupInteractor.swift */,
+				D8C8650AECDE146A62606298 /* ISetupInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4A7EE1FDC372EDE44331B366 /* ImageDetection */ = {
+			isa = PBXGroup;
+			children = (
+				097894B1C488DE2CCBB49FE8 /* View */,
+				98937B56B71672B56BD80FC7 /* Presenter */,
+				9ED12DE33EDF2048AF3884C5 /* Interactor */,
+				606D1DA62164565A8993D352 /* Router */,
+				8E9C4AA10AF7E1B1C7B3BFE2 /* Assembly */,
+			);
+			path = ImageDetection;
+			sourceTree = "<group>";
+		};
+		54501E703B18CE2ED552D7C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C36CC855B5CF6D0423886D07 /* CongratsRouter.swift */,
+				84693796BF6C07D5FF7622B7 /* ICongratsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		55C03EFB245090C2003131EB = {
 			isa = PBXGroup;
 			children = (
@@ -48,7 +315,7 @@
 		55C03F05245090C2003131EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55C03F04245090C2003131EB /* ARQuestApp.app */,
+				55C03F04245090C2003131EB /* Найди подарок.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +323,276 @@
 		55C03F06245090C2003131EB /* ARQuestApp */ = {
 			isa = PBXGroup;
 			children = (
-				55C03F07245090C2003131EB /* AppDelegate.swift */,
-				55C03F09245090C2003131EB /* ViewController.swift */,
-				55C03F0B245090C2003131EB /* Experience.rcproject */,
+				2F23FA9173B0C36D98D046D9 /* Source */,
+				55C03F1B24509CEB003131EB /* Supporting Files */,
+			);
+			path = ARQuestApp;
+			sourceTree = "<group>";
+		};
+		55C03F1B24509CEB003131EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FAB957246318BE0013D970 /* alert.wav */,
 				55C03F0D245090C2003131EB /* Main.storyboard */,
 				55C03F10245090C7003131EB /* Assets.xcassets */,
 				55C03F12245090C7003131EB /* LaunchScreen.storyboard */,
 				55C03F15245090C7003131EB /* Info.plist */,
 			);
-			path = ARQuestApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55C03F1C24509D22003131EB /* BaseViper */ = {
+			isa = PBXGroup;
+			children = (
+				55C03F1E24509D22003131EB /* BaseViewController.swift */,
+				55C03F2024509D22003131EB /* ViperModule.swift */,
+				55C03F2124509D22003131EB /* IBaseRouter.swift */,
+				55C03F2224509D22003131EB /* ILifeCycleOutput.swift */,
+				55C03F2324509D22003131EB /* BasePresenter.swift */,
+				55C03F2424509D22003131EB /* BaseRouter.swift */,
+			);
+			path = BaseViper;
+			sourceTree = "<group>";
+		};
+		55C03F2F24509DE7003131EB /* ModulesFactory */ = {
+			isa = PBXGroup;
+			children = (
+				55C03F3024509DE7003131EB /* ModulesFactory.swift */,
+				55C03F3124509DE7003131EB /* IModulesFactory.swift */,
+			);
+			path = ModulesFactory;
+			sourceTree = "<group>";
+		};
+		55C03F342450A23A003131EB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55C03F352450A254003131EB /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55F491F92455EB780079B2C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55F491FA2455EB890079B2C6 /* MapModel.swift */,
+				55F491FC2455EC100079B2C6 /* MapItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		606D1DA62164565A8993D352 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6D9F445BF61F37471A1C3FB /* ImageDetectionRouter.swift */,
+				5216364B00099B9A6C3E8ADC /* IImageDetectionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		64D316D7F9B6C04F60F7FCB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A3AE0CC00643841A38111EE /* AwaitViewController.swift */,
+				C6CBC8C91E5217CA23DE8975 /* IAwaitView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71CAB7CD858FDF62E6099E53 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A653E30F5452961400C1259D /* MapInteractor.swift */,
+				7E5EAB74A19B028CCB42505D /* IMapInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		750F0821E9355F6E32448374 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C95582DFE02897B9A1D67304 /* MapPresenter.swift */,
+				3D311BEAA667F3D3CF37B125 /* IMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7D9AD000F79E8AFCE557C828 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7991F1A59902DAE1F7D712F9 /* MapRouter.swift */,
+				BBECEE065707505FD96B48F3 /* IMapRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		81DEFB0483ABD69DED95235F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				4598F4E7C2057CB59EFCABEF /* GiftScannerAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		8E9C4AA10AF7E1B1C7B3BFE2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1277CE8AE2BACB274647ED0C /* ImageDetectionAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		98937B56B71672B56BD80FC7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6280B9047AA987890864CB8 /* ImageDetectionPresenter.swift */,
+				6C3056A6851DD21EE6704294 /* IImageDetectionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9ED12DE33EDF2048AF3884C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				01D62A35C0F940B6E7DB8F0C /* ImageDetectionInteractor.swift */,
+				DCF3AAD432A5BD8280336F89 /* IImageDetectionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9F84BB4E680A239EA76E67D3 /* Congrats */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BF173C683A6326DBBC29B /* View */,
+				C65492DE49C6F9E377F4C0CC /* Presenter */,
+				2BC4C7520E62BA2173247070 /* Interactor */,
+				54501E703B18CE2ED552D7C0 /* Router */,
+				F12BD6361628FB601D2B90C1 /* Assembly */,
+			);
+			path = Congrats;
+			sourceTree = "<group>";
+		};
+		A35DAC5F2674FE3FBEFAE221 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				994D908D5FB2E99D7BA3AF9D /* SetupPresenter.swift */,
+				27E4D7DD9A16809C539BB005 /* ISetupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		B1D317CE14A7D49B784CD20E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				27B64E4E2BC84B3507002A58 /* MapAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		BA293EFF9FB3D0973B1BF5A0 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				E45BB59FDA9554AD52CDEBB6 /* View */,
+				A35DAC5F2674FE3FBEFAE221 /* Presenter */,
+				44F7E9E0ECEBCE67258774CF /* Interactor */,
+				10F0F3919F1227A16A24C811 /* Router */,
+				F1AB4307380FB5AA934D149F /* Assembly */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		BF5AFB9D9019389E3CC8927C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				55C03F1C24509D22003131EB /* BaseViper */,
+				55C03F2F24509DE7003131EB /* ModulesFactory */,
+				BA293EFF9FB3D0973B1BF5A0 /* Setup */,
+				0737F683E71E4DD7BD1587A7 /* Await */,
+				4A7EE1FDC372EDE44331B366 /* ImageDetection */,
+				9F84BB4E680A239EA76E67D3 /* Congrats */,
+				42A5BB18DA0165C41F368B72 /* Map */,
+				3C99CF68838E7DEB10E17E74 /* GiftScanner */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C63D91E86F0266B956D586DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E64DB8EAD438657CEF26A08 /* MapViewController.swift */,
+				428C85A7CC2ABDCAF5699437 /* IMapView.swift */,
+				559A28182455FC2B001C6501 /* MapItemCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C65492DE49C6F9E377F4C0CC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A8A365206B937A22EB675C6B /* CongratsPresenter.swift */,
+				8CBB9A5E29EF298818ADC765 /* ICongratsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D43AC7D01F2658F7B6D45934 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3DC8DBCA9AF93330A350A35F /* AwaitRouter.swift */,
+				9AD409286A9C093E7A2E333D /* IAwaitRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D8FDC50E3975FA9BE7FECC5B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CB3CDDDB0681B5692E93F759 /* AwaitInteractor.swift */,
+				62A69AED28ADCE6F03D3B1B2 /* IAwaitInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E45BB59FDA9554AD52CDEBB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52B2B87FEA6C949FDC895E0D /* SetupViewController.swift */,
+				FDB93BCB26A5EAADB5F24F75 /* ISetupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F12BD6361628FB601D2B90C1 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				78371D354DF47D10630EB887 /* CongratsAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		F1AB4307380FB5AA934D149F /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5F66DB7D76AC13DABA556 /* SetupAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		FAE664EC09D1D292F2C91594 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BFD0C181267BAE3BD00E9B36 /* GiftScannerPresenter.swift */,
+				3378043574FAA38EED9E4B2C /* IGiftScannerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FF4BF173C683A6326DBBC29B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A8838E407739ECA2EE8F2DC /* CongratsViewController.swift */,
+				5442132C836F5F4F69A17DEF /* ICongratsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +612,7 @@
 			);
 			name = ARQuestApp;
 			productName = ARQuestApp;
-			productReference = 55C03F04245090C2003131EB /* ARQuestApp.app */;
+			productReference = 55C03F04245090C2003131EB /* Найди подарок.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +653,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FAB958246318BE0013D970 /* alert.wav in Resources */,
 				55C03F14245090C7003131EB /* LaunchScreen.storyboard in Resources */,
 				55C03F11245090C7003131EB /* Assets.xcassets in Resources */,
 				55C03F0F245090C2003131EB /* Main.storyboard in Resources */,
@@ -138,9 +667,72 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C03F0A245090C2003131EB /* ViewController.swift in Sources */,
 				55C03F08245090C2003131EB /* AppDelegate.swift in Sources */,
-				55C03F0C245090C2003131EB /* Experience.rcproject in Sources */,
+				71A1FC0DE347112865D9F086 /* SetupViewController.swift in Sources */,
+				55C03F2724509D22003131EB /* BaseViewController.swift in Sources */,
+				4E1C8494BFBF3234BFC6F407 /* ISetupView.swift in Sources */,
+				55C03F2D24509D22003131EB /* BaseRouter.swift in Sources */,
+				9C3BB703D6FC340F5E13D3C2 /* SetupPresenter.swift in Sources */,
+				55C03F2924509D22003131EB /* ViperModule.swift in Sources */,
+				55C03F2C24509D22003131EB /* BasePresenter.swift in Sources */,
+				A6F69ED36A34C6E6E0D1C745 /* ISetupPresenter.swift in Sources */,
+				1E0F78FF7B72DB6A9286731A /* SetupInteractor.swift in Sources */,
+				55C03F2B24509D22003131EB /* ILifeCycleOutput.swift in Sources */,
+				5549CDF7F4F57099CD28B086 /* ISetupInteractor.swift in Sources */,
+				A5F3EF4DB1952B722713C6A7 /* SetupRouter.swift in Sources */,
+				B96BA35D99292E25396C2271 /* ISetupRouter.swift in Sources */,
+				55C03F3224509DE7003131EB /* ModulesFactory.swift in Sources */,
+				B441D3D8F658C8AB757F31B9 /* SetupAssembly.swift in Sources */,
+				55C03F3324509DE7003131EB /* IModulesFactory.swift in Sources */,
+				55C03F2A24509D22003131EB /* IBaseRouter.swift in Sources */,
+				55F491F82455C51F0079B2C6 /* StatusViewController.swift in Sources */,
+				1C4A3D8517A2F620414D19FD /* AwaitViewController.swift in Sources */,
+				559A28192455FC2B001C6501 /* MapItemCell.swift in Sources */,
+				519C5E00A38FFF447311FD4C /* IAwaitView.swift in Sources */,
+				D56CB8768B200B98009D378F /* AwaitPresenter.swift in Sources */,
+				AAC42C5DD1800963414A2B10 /* IAwaitPresenter.swift in Sources */,
+				6315015246445B0FFC44B536 /* AwaitInteractor.swift in Sources */,
+				B7F5929CBF3EDC866F5D7357 /* IAwaitInteractor.swift in Sources */,
+				8206131F21B48D904FA58076 /* AwaitRouter.swift in Sources */,
+				157E80DB29A24CA7F6F6F072 /* IAwaitRouter.swift in Sources */,
+				55C03F362450A254003131EB /* NotificationService.swift in Sources */,
+				0D8C365E62A63EBCC8EFCBA4 /* AwaitAssembly.swift in Sources */,
+				F37056B859C2B43688745A4B /* ImageDetectionViewController.swift in Sources */,
+				C3A71465F80BFEB1C981803A /* IImageDetectionView.swift in Sources */,
+				6291336F106A2753D9CA1FB8 /* ImageDetectionPresenter.swift in Sources */,
+				37A9D6D8F9E6487DF854B277 /* IImageDetectionPresenter.swift in Sources */,
+				A954382A362F337380C8A291 /* ImageDetectionInteractor.swift in Sources */,
+				A3FDC49976AF8F5BB881514C /* IImageDetectionInteractor.swift in Sources */,
+				3359F4138478AEB0C2ED86FC /* ImageDetectionRouter.swift in Sources */,
+				5762CB5CCE8380C6F3B681B7 /* IImageDetectionRouter.swift in Sources */,
+				55F491FD2455EC100079B2C6 /* MapItem.swift in Sources */,
+				5119CFADDC581372203D354B /* ImageDetectionAssembly.swift in Sources */,
+				7D1AB3A7DFC9782B8C1C8484 /* CongratsViewController.swift in Sources */,
+				A5D1A24B22FBF6B8E91B5417 /* ICongratsView.swift in Sources */,
+				6DCA56195613FD53B72E4690 /* CongratsPresenter.swift in Sources */,
+				087BEEE0119DE8E3B3819A9F /* ICongratsPresenter.swift in Sources */,
+				A09A6DAF2B35CAF4CBA04DCC /* CongratsInteractor.swift in Sources */,
+				55F491FB2455EB890079B2C6 /* MapModel.swift in Sources */,
+				FBB41AAE3E686A96CD7A12DD /* ICongratsInteractor.swift in Sources */,
+				C85EB72BF957C0FC98AF6374 /* CongratsRouter.swift in Sources */,
+				4B040C544A7D69EC81A116B1 /* ICongratsRouter.swift in Sources */,
+				241B487EEF1795454227079E /* CongratsAssembly.swift in Sources */,
+				01182BA51C63E58C0FDD0368 /* MapViewController.swift in Sources */,
+				E794872B92D608ECE9716A18 /* IMapView.swift in Sources */,
+				A9EEA77A6CDC151690C28796 /* MapPresenter.swift in Sources */,
+				31681D6453BC11B2417786BF /* IMapPresenter.swift in Sources */,
+				E410F678E6E2BBB44951544C /* MapInteractor.swift in Sources */,
+				E2388BDEB7B00FEA30DB10A7 /* IMapInteractor.swift in Sources */,
+				9F3DCD94D339ECF13A46A954 /* MapRouter.swift in Sources */,
+				DA3154DECA5B7090AB5932B5 /* IMapRouter.swift in Sources */,
+				831735F50DF87A51E92CC9D2 /* MapAssembly.swift in Sources */,
+				E665E83C42AAD784AA74C05C /* GiftScannerPresenter.swift in Sources */,
+				692B33CF4E60AA5800669526 /* IGiftScannerPresenter.swift in Sources */,
+				F68FDA6C73B0432404FBD97B /* GiftScannerInteractor.swift in Sources */,
+				8E18C5751447B097D8FEDADD /* IGiftScannerInteractor.swift in Sources */,
+				3C3ED27916E59A5926E51491 /* GiftScannerRouter.swift in Sources */,
+				8ED697A65995866B97F1BC99 /* IGiftScannerRouter.swift in Sources */,
+				4A262188E6BF2693FBF87AAB /* GiftScannerAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +877,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PD3WD5BAH;
-				INFOPLIST_FILE = ARQuestApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ARQuestApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = av.personal.ARQuestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Найди подарок";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,14 +896,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PD3WD5BAH;
-				INFOPLIST_FILE = ARQuestApp/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ARQuestApp/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = av.personal.ARQuestApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Найди подарок";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

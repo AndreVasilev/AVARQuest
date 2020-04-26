@@ -1,0 +1,23 @@
+### Headers settings
+company: Andrey Vasilev
+
+### Xcode project settings
+project_name: ARQuestApp
+xcodeproj_path: ARQuestApp.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ARQuestApp
+
+# The file path for new modules
+project_file_path: ARQuestApp/Source/Modules
+
+# The Xcode group path to new modules
+project_group_path: ARQuestApp/Source/Modules
+
+### Dependencies settings section
+podfile_path: 
+
+### Templates
+templates:
+- {name: viper}
